@@ -1,0 +1,24 @@
+{
+  "name": "solinkassement",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnkyony/solinkAssement.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnkyony/solinkAssement/issues"
+  },
+  "homepage": "https://github.com/johnkyony/solinkAssement#readme",
+  "dependencies": {
+    "pg": "^8.11.3",
+    "typeorm": "^0.3.17"
+  }
+}
