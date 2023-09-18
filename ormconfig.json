@@ -1,0 +1,18 @@
+{
+  "type": "postgres",
+  "host": "solinkgraphql.postgres.database.azure.com",
+  "port": 5432,
+  "username": "jkyony",
+  "password": "f@cus1sbr1ght21",
+  "database": "postgres",
+  "synchronize": false,
+  "logging": true,
+  "entities": ["src/entities/**/*.ts"],
+  "migrations": ["src/migrations/**/*.ts"],
+  "subscribers": ["src/subscribers/**/*.ts"],
+  "cli": {
+    "entitiesDir": "src/entities",
+    "migrationsDir": "src/migrations",
+    "subscribersDir": "src/subscribers"
+  }
+}
