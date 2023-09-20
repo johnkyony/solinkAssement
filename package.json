@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/server.js",
+    "build": "tsc"
+
   },
   "repository": {
     "type": "git",
@@ -17,13 +20,26 @@
     "url": "https://github.com/johnkyony/solinkAssement/issues"
   },
   "homepage": "https://github.com/johnkyony/solinkAssement#readme",
+
   "dependencies": {
     "@aws-cdk/aws-apigateway": "^1.204.0",
     "@aws-cdk/aws-lambda": "^1.204.0",
+    "apollo-server-core": "^3.12.1",
+    "apollo-server-express": "^3.12.1",
+    "class-validator": "^0.14.0",
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
     "pg": "^8.11.3",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
     "typeorm": "^0.3.17"
   },
   "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/express-graphql": "^0.9.0",
+    "@types/graphql": "^14.5.0",
+    "@types/node": "^20.6.2",
+    "ts-node": "^10.9.1",
     "typescript": "^5.2.2"
   }
 }
