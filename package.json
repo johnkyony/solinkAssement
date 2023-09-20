@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/server.ts"
+    "start": "node ./dist/server.js",
+    "build": "tsc"
+
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,7 @@
     "url": "https://github.com/johnkyony/solinkAssement/issues"
   },
   "homepage": "https://github.com/johnkyony/solinkAssement#readme",
-  "type":"module",
+
   "dependencies": {
     "apollo-server-core": "^3.12.1",
     "apollo-server-express": "^3.12.1",
