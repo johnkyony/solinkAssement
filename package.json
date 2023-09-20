@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/johnkyony/solinkAssement#readme",
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.204.0",
+    "@aws-cdk/aws-lambda": "^1.204.0",
     "pg": "^8.11.3",
     "typeorm": "^0.3.17"
   },
