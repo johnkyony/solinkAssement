@@ -12,6 +12,9 @@ export class Task{
     @Column()
     description: string;
 
+    @Column()
+    completed:boolean;
+
     @ManyToOne(() => User, (user) => user.tasks)
     user: User;
 
